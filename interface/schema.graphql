@@ -1,0 +1,8 @@
+type Module {
+  """
+  Deploys the wrapper at given URI to the authority of deploy module and returns the destination URI.
+  """
+  deploy(
+    uri: String!
+  ): String! @env(required: false)
+}

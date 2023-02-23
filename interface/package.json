@@ -1,0 +1,18 @@
+{
+  "name": "@polywrap/deploy-module-extension-interface",
+  "description": "Deploy module extention interface",
+  "license": "MIT",
+  "version": "0.0.1",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/polywrap/deploy-module-extensions.git"
+  },
+  "scripts": {
+    "build": "polywrap build",
+    "deploy": "polywrap deploy -o deployment.json"
+  },
+  "devDependencies": {
+    "polywrap": "0.10.0-pre.7"
+  }
+}

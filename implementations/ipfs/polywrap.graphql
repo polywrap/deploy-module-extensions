@@ -1,0 +1,8 @@
+#import * into Deploy from "wrap://ens/wrappers.polywrap.eth:deploy-module-ext@1.0.0"
+#import { Module } into IpfsClient from "wrap://ens/wrappers.polywrap.eth:ipfs-http-client@1.0.0"
+
+type Module implements Deploy_Module {}
+
+type Env {
+  gatewayUri: String!
+}
